@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My gallery</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</head>
+<body>
+<h1>GALLERY</h1>
+<a href="{% url 'about' %}" class="btn btn-outline-danger">About</a>
+<a href="{% url 'home' %}" class="btn btn-outline-danger">Home</a>
+<P>Welcome to my gallery, where art comes to life and stories unfold</P>
+<img src="{% static 'image/Parot.png' %}" alt="">
+<img src="{% static 'image/Parrot.jpg' %}" alt="">
+<img src="{% static 'image/Dove.jpg' %}" alt="">
+<img src="{% static 'image/Lion.jpg' %}" alt="">
+<img src="{% static 'image/Eagle.jpg' %}" alt="">
+<img src="{% static 'image/Elephant.jpg' %}" alt="">
+<img src="{% static 'image/Tiger.jpg' %}" alt="">
+<img src="{% static 'image/Koalas.jpg' %}" alt="">
+<img src="{% static 'image/Fox.jpg' %}" alt="">
+<img src="{% static 'image/Flamingo.jpg' %}" alt="">
+
+</body>
+</html>
